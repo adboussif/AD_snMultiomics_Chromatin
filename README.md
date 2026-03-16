@@ -43,6 +43,8 @@ Core analysis notebook.
 - Peak-to-gene mapping using a gene body BED file
 
 ### 6. `mtg_corr_RNA_AD.ipynb` — RNA × AD Pathology Correlation
+- QC metrics
+- Subsetting to neuronal populations
 - Pseudobulk snRNA-seq aggregation by donor
 - Spearman correlation of gene expression with PPS
 - Cross-modal comparison with aCM results
@@ -53,8 +55,6 @@ Core analysis notebook.
 
 Raw `.h5ad` files are **not included** in this repository. See [data/README.md](data/README.md) for download instructions.
 
-**Source:** [Allen Brain Cell Atlas — SEA-AD](https://portal.brain-map.org/atlases-and-data/rnaseq/human-mtg-10x_sea-ad)
-
 ---
 
 ## Dependencies
@@ -62,15 +62,6 @@ Raw `.h5ad` files are **not included** in this repository. See [data/README.md](
 ```bash
 pip install scanpy anndata muon scipy statsmodels pandas numpy matplotlib seaborn h5py
 ```
-
-| Package | Version tested |
-|---------|---------------|
-| Python  | 3.10+ |
-| scanpy  | 1.10+ |
-| anndata | 0.10+ |
-| muon    | 0.1.6+ |
-| scipy   | 1.12+ |
-
 ---
 
 ## Citation
